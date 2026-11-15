@@ -1,0 +1,6 @@
+build/
+.gradle/
+.idea/
+*.sparrow
+*.bak
+local.properties
