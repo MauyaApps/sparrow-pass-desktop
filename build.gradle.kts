@@ -9,7 +9,7 @@ plugins {
 repositories { google(); mavenCentral() }
 
 dependencies {
-    implementation(compose.desktop.currentOS)
+    implementation(compose.desktop.currentOs)
     implementation(compose.material3)
     implementation("org.bouncycastle:bcprov-jdk18on:1.80")
     implementation("com.google.code.gson:gson:2.11.0")
